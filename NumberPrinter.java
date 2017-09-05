@@ -22,6 +22,9 @@ class NumberPrinter{
 	for (int i = 0; i < ll.size(); i++) {
 		System.out.println(ll.get(i));
 	}
+        ll.add(1);
+        ll.add(2);
+        ll.add(3)
     }
 
 
