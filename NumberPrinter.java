@@ -17,7 +17,9 @@ class NumberPrinter{
     }
 
     private void doStuff(){
-        
+        ll.add(1);
+        ll.add(2);
+        ll.add(3)
     }
 
 
