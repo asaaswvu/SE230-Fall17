@@ -1,11 +1,12 @@
 import java.util.LinkedList;
 import java.util.Random;
+import java.util.Collections;
 
 class NumberPrinter{
 
-    LinkedList<Integer> ll;
+   LinkedList<Integer> ll;
 
-    NumberPrinter(){
+   NumberPrinter(){
         Random rand = new Random();
         ll = new LinkedList<Integer>();
         
@@ -14,9 +15,13 @@ class NumberPrinter{
         }
 
         doStuff();
+	
     }
 
     private void doStuff(){
+
+	Collections.sort(ll);
+	System.out.println(ll);
         
     }
 
@@ -24,7 +29,8 @@ class NumberPrinter{
 
 
     public static void main(String [] args){
-        new NumberPrinter();	
+        new NumberPrinter();
+        
     }
 
 }
