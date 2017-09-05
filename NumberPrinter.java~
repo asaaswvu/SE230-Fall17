@@ -18,7 +18,7 @@ class NumberPrinter{
     }
 
     private void doStuff(){
-        Collections.sort(ll);
+        Collection.sort(ll);
 System.out.println("number printe is : " + ll);
     }
 
@@ -26,7 +26,7 @@ System.out.println("number printe is : " + ll);
 
 
     public static void main(String [] args){
-        new NumberPrinter(); 
+        new NumberPrinter();	
     }
 
 }
