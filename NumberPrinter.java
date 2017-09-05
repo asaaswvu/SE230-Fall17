@@ -22,8 +22,6 @@ class NumberPrinter{
 	ll.add(1);
         ll.add(2);
         ll.add(3);
-	Collections.sort(ll);
-	System.out.println(ll);
     }
 
 
