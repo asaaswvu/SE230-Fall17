@@ -1,5 +1,6 @@
 import java.util.LinkedList;
 import java.util.Random;
+import java.util.Collections;
 
 class NumberPrinter{
 
@@ -17,14 +18,16 @@ class NumberPrinter{
     }
 
     private void doStuff(){
-        
+        Collections.sort(ll);
+	System.out.println(ll);
     }
 
 
 
 
     public static void main(String [] args){
-        new NumberPrinter();	
+        new NumberPrinter();
+	
     }
 
 }
