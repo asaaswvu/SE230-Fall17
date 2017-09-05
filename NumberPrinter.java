@@ -18,10 +18,14 @@ class NumberPrinter{
     }
 
     private void doStuff(){
-        
-	ll.add(1);
-        ll.add(2);
-        ll.add(3);
+
+        Random rand = new Random();
+        LinkedList <Integer>myLinkedList = new LinkedList<>();
+        for(int i=0; i<10; i++){
+            myLinkedList.add(rand.nextInt(100) + 1);
+            Collections.sort(myLinkedList);
+            System.out.println(myLinkedList.toString());
+        }
     }
 
 
