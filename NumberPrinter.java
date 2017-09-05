@@ -18,6 +18,9 @@ class NumberPrinter{
     }
 
     private void doStuff(){
+        ll.add(1);
+        ll.add(2);
+        ll.add(3);
 	Collections.sort(ll);
         for(Integer i : ll){
 	    System.out.println(i);
